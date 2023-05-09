@@ -17,7 +17,9 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See - task: AzureRmWebAppDeployment@4
-  input:
+
+-task: Azuredeployemtntowebapp
+  inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'KOMAL_FARZI_MCT (21087fd8-ddac-43ad-9202-7fe47cb92dbb)'
     appType: 'webApp'
